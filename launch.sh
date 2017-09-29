@@ -80,7 +80,7 @@ function configure() {
     mkdir $HOME/.telegram-bot; cat <<EOF > $HOME/.telegram-bot/config
 default_profile = "main";
 main = {
-  lua_script = "$HOME/DBTeamV3/bot/bot.lua";
+  lua_script = "$HOME/DBTeam/bot/bot.lua";
 };
 EOF
     printf "\nDone\n"
